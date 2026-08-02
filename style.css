@@ -14,7 +14,8 @@ background:#08142b;
 }
 
 .logo{
-width:250px;
+  height: 250px;
+width:275px;
 }
 
 .slogan{
@@ -92,3 +93,16 @@ info{
 .electro{
   text-align: center;
 }
+
+.reveal{
+opacity:0;
+transform: translateY(50px);
+transition: all 1.2s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform: translateY(0);
+}
+.idea{font-size: 25px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
